@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-4xl;
+    }
+
+    h2 {
+        @apply text-3xl;
+    }
+
+    h3 {
+        @apply text-2xl;
+    }
+
+    h4 {
+        @apply text-lg;
+    }
+}
+
+@layer components {
+    .table-border {
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        padding: 0.5rem 0 1rem 1.5rem;
+    }
+
+    .table-border-value {
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        padding: 0.5rem 0 1rem 1.5rem;
+        color: hsl(14, 45%, 36%);
+        font-weight: 700;
+    }
+
+    tbody tr:last-child td {
+        border-bottom: none;
+    }
+}
