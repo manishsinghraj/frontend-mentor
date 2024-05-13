@@ -3,9 +3,9 @@ import { omeletteImg, omeletteIngredients, omeletteInstructions, omelettePrepara
 function App() {
   return (
     <>
-      <main className='md:bg-Eggshell text- md:flex md:justify-center md:items-center md:min-h-screen '>
+      <main className='md:bg-Eggshell md:flex md:justify-center md:items-center md:min-h-screen '>
 
-        <div className='md:w-[700px]  md:bg-White md:m-40 md:p-8 md:rounded-xl lg:shadow-sm'>
+        <div className='md:w-[700px] md:bg-White md:m-40 md:p-8 md:rounded-xl lg:shadow-sm'>
           <img src={omeletteImg} alt='omelette' className='w-full h-full md:rounded-lg' />
 
           <div className='text-Wenge-Brown max-md:p-8 md:pt-6'>
