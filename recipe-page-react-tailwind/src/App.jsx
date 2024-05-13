@@ -5,11 +5,11 @@ function App() {
     <>
       <main className='md:bg-Eggshell md:flex md:justify-center md:items-center md:min-h-screen '>
 
-        <div className='md:w-[700px] md:bg-White md:m-20 md:p-8 md:rounded-xl lg:shadow-sm'>
-          <img src={omeletteImg} alt='omelette' className='w-full h-full rounded-lg' />
+        <div className='md:w-[700px] md:bg-White md:m-40 md:p-8 md:rounded-xl lg:shadow-sm'>
+          <img src={omeletteImg} alt='omelette' className='w-full h-full md:rounded-lg' />
 
-          <div className='max-md:p-8 md:pt-6'>
-            <h1 className='font-Young-Serif text-4xl mb-4'>Simple Omelette Recipe</h1>
+          <div className='text-Wenge-Brown max-md:p-8 md:pt-6'>
+            <h1 className='text-black font-Young-Serif text-4xl mb-4'>Simple Omelette Recipe</h1>
             <p className='font-Outfit mb-4 text-base'>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
               to perfection, optionally filled with your choice of cheese, vegetables, or meats.
             </p>

@@ -22,7 +22,7 @@ const omeletteInstructions = [
 
     "Cook the omelette: Once the butter is melted and bubbling, pour in the eggs.Tilt the pan to ensure the eggs evenly coat the surface.",
 
-    " Add fillings(optional): When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.",
+    "Add fillings(optional): When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.",
 
     "Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the fillings.Let it cook for another minute, then slide it onto a plate.",
 
