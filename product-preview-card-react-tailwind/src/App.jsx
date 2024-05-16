@@ -22,29 +22,27 @@ function App() {
   return (
 
     <>
-      <main className="bg-Cream min-h-screen flex justify-center items-center">
+      <main className="bg-Cream min-h-screen text-sm font-Montserrat grid place-content-center">
 
-        <div className="px-4 py-6 text-sm sm:flex sm:w-[600px] sm:h-[500px]">
-          <img src={imageSrc} alt="perfume" className="w-full rounded-tr-lg rounded-tl-lg" />
+        <div className="mx-4 overflow-hidden rounded-lg sm:max-w-[600px] sm:grid sm:grid-cols-2">
+          <img src={imageSrc} alt="perfume" />
 
-          <div className="bg-white rounded-bl-lg rounded-br-lg p-6 ">
-            <span className="font-Montserrat text-Dark-grayish-blue font-medium">P E R F U M E</span>
+          <div className="bg-white p-6 grid place-content-center gap-4 sm:px-8 sm:gap-5">
+            <p className=" text-Dark-grayish-blue font-medium uppercase tracking-[0.25em]">perfume</p>
 
-            <div className="px-1.2 py-2 mb-1">
-              <h1 className="font-Fraunces text-Very-dark-blue font-bold">Gabrielle Essence Eau De Parfum</h1>
-            </div>
+            <h1 className="text-Very-dark-blue font-Fraunces font-bold">Gabrielle Essence Eau De Parfum</h1>
 
-            <p className="font-Montserrat font-medium text-Dark-grayish-blue leading-6">
+            <p className="text-Dark-grayish-blue font-Montserrat font-medium leading-6">
               A floral, solar and voluptuous interpretation composed by Olivier Polge,
               Perfumer-Creator for the House of CHANEL.
             </p>
 
-            <div className="mt-2 mb-2 py-4 flex items-center space-x-5">
-              <h1 className="font-Fraunces font-bold text-Dark-cyan">$149.99</h1>
-              <p className="line-through font-Montserrat font-medium text-Dark-grayish-blue">$169.99</p>
+            <div className="flex items-center space-x-5">
+              <h1 className="text-Dark-cyan font-Fraunces font-bold">$149.99</h1>
+              <p className="text-Dark-grayish-blue line-through font-Montserrat font-medium ">$169.99</p>
             </div>
 
-            <button className="bg-Dark-cyan font-Montserrat font-medium flex justify-center items-center space-x-2 w-full rounded-lg py-4 text-White
+            <button className="bg-Dark-cyan text-White font-Montserrat font-bold flex justify-center items-center space-x-2 rounded-lg py-4 border-none
             hover:bg-Dark-hover-cyan">
               <img src={cartIcon} /> <span>Add to Cart</span>
             </button>
