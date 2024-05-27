@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishsinghraj/frontend-mentor.git"
+  },
+  "keywords": [
+    "frontendMentor",
+    "fullstack",
+    "node",
+    "express"
+  ],
+  "author": "Manish Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishsinghraj/frontend-mentor/issues"
+  },
+  "homepage": "https://github.com/manishsinghraj/frontend-mentor#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.1"
+  }
+}
