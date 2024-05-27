@@ -19,7 +19,7 @@ export default {
         "Barlow": ["Barlow Semi Condensed", 'sans-serif'],
       },
       backgroundImage : {
-        'patternQuote': "url('./src/assets/bg-pattern-quotation.svg')"
+        'patternQuote': "url('./assets/bg-pattern-quotation.svg')"
       }
     },
   },
