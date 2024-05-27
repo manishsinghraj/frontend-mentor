@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-right-top-offset {
+        background-position: right 26px top;
+    }
+
+    @screen xl {
+        .bg-right-top-offset-xl {
+            background-position: right 90px top;
+        }
+    }
+}
