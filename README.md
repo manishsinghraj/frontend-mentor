@@ -7,6 +7,7 @@
 - [blog-preview-card-react-tailwind](#blog-preview-card-react-tailwind)
 - [recipe-page-react-tailwind](#recipe-page-react-tailwind)
 - [product-preview-card-react-tailwind](#product-preview-card-react-tailwind)
+- [four-card-feature-section-html-css](#four-card-feature-section-html-css)
 
 <hr>
 
@@ -26,3 +27,7 @@
 - ### [product-preview-card-react-tailwind](./product-preview-card-react-tailwind)
   <img src="./product-preview-card-react-tailwind/src/design/desktop-design.jpg" alt="Desktop Design" style="display:inline-block;margin-right:10px; max-width:400px; width:auto; height:auto; vertical-align:top;">
   <img src="./product-preview-card-react-tailwind/src/design/mobile-design.jpg" alt="Mobile Design" style="display:inline-block;margin-right:10px; max-width:300px; width:auto; height:auto; vertical-align:top;">
+
+
+- ### [four-card-feature-section-html-css](./four-card-feature-section-html-css)
+  <img src="./four-card-feature-section-html-css/design/desktop-design.jpg" alt="Desktop Design" style="display:inline-block;margin-right:10px; max-width:500px; width:auto; height:auto; vertical-align:top;">
