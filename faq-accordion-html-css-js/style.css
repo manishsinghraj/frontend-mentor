@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(278, 62%, 49%);
+   
+
+    --font-w-small: 400;
+    --font-w-normal: 600;
+    --font-w-large: 700;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    font-family: "Work Sans", "sans-serif";
+    background-color: var(--Light-pink);
+}
+
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("./assets/images/background-pattern-desktop.svg") no-repeat fixed top;
+    position: relative;
+}
+
+.card {
+    position: absolute;
+    background-color: var(--White);
+    max-width: 600px;
+    border-radius: 20px;
+    border: none;
+    padding: 40px 40px 0 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: 160px;
+
+}
+
+.heading {
+    display: flex;
+    gap: 2rem;
+    font-weight: var(--font-w-large);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.faq {
+    border-bottom: 1px solid hsl(0, 0%, 0%, 0.1);
+    padding-bottom: 15px;
+}
+
+.faq:last-child {
+    border-bottom: none;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    font-weight: var(--font-w-normal);
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.question:hover{
+    cursor: pointer;
+    color: var(--Dark-purple);
+}
+
+.answer {
+    display: none;
+    color: var(--Grayish-purple);
+
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
