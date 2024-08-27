@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@layer base {
+    h1 {
+        font-size: 2rem;
+        line-height: 1;
+        @apply text-Dark-Grayish-Blue font-w-medium;
+
+        @screen sm {
+            font-size: 2.5rem;
+        }
+
+    }
+
+
+    h2 {
+        font-size: 1.8rem;
+        line-height: 1;
+        @apply text-Dark-Grayish-Blue font-w-medium;
+
+        @screen sm {
+            font-size: 2.3rem;
+        }
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        line-height: 1;
+        @apply text-Dark-Grayish-Blue font-w-medium;
+
+        @screen sm {
+            font-size: 2rem;
+        }
+    }
+}
+
+@layer base {
+    section {
+        @apply space-y-7 mb-40 flex flex-col items-center justify-center;
+    }
+}
