@@ -24,9 +24,9 @@ export default {
       backgroundImage: {
         'gradient-1': "linear-gradient(135deg,  hsl(0, 0%, 100%), hsl(0, 100%, 98%))",
         'gradient-2': "linear-gradient(135deg,  hsl(0, 80%, 86%), hsl(0, 74%, 74%))",
-        "heroDesktop": "url('./src/assets/images/hero-desktop.jpg')",
-        "heroMobile": "url('./src/assets/images/hero-mobile.jpg')",
-        "patternDesktop": "url('./src/assets/images/bg-pattern-desktop.svg')",
+        "heroDesktop": "url('./assets/images/hero-desktop.jpg')",
+        "heroMobile": "url('./assets/images/hero-mobile.jpg')",
+        "patternDesktop": "url('./assets/images/bg-pattern-desktop.svg')",
       },
     },
   },
